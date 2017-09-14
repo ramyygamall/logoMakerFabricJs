@@ -13,7 +13,7 @@ if (document.addEventListener) {
 }
 
 //  Downloading Image
-$('#saveImg').on('click',saveImg);
+$('#saveImg').on('click.js',saveImg);
 function saveImg(){    
     downloadFabric(canvas,'<file name>');
     }
